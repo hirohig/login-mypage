@@ -1,0 +1,130 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+    height: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+header img {
+    height: 50px;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+
+header .logout {
+    float: right;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+main {
+    clear: left;
+    width: 100%;
+}
+
+main form {
+    background-color: white;
+    border: lightgray solid 2px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px lightgray;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 600px;
+}
+
+main .form_contents {
+    margin: 20px 15px;
+}
+
+main h2 {
+    border-bottom: solid 1px #31A263;
+    font-size: 20px;
+    margin: 20px 15px 0px;
+    text-align: center;
+}
+
+main .hello {
+    margin: 20px;
+    text-align: left;
+}
+
+main .profile_pic {
+    display: inline-block;
+    border: solid 2px lightgray;
+    margin-left: 35px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+main .profile_pic img {
+    padding: 5px;
+    width: 100px;
+}
+
+main .basic_info {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+main .comments {
+    border-top: solid 1px lightgray;
+    margin: 20px 0px 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+main .button {
+    text-align: center;
+}
+
+main .submit_button {
+    background-color: #31A263;
+    border: 1px solid lightgray;
+    border-bottom: solid 2px gray;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 6px 60px 4px 60px;
+    width: 200px;
+}
+
+main .edit_button {
+    background-color: #31A263;
+    border: 1px solid lightgray;
+    border-bottom: solid 2px gray;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 10px;
+    padding: 6px 60px 4px 60px;
+    width: 250px;
+}
+
+main .formbox {
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    color: #000;
+    padding: 5px;
+}
+
+footer {
+    background-color: white;
+    border-top: lightgray solid 2px;
+    bottom: 0px;
+    color: gray;
+    font-size: 13px;
+    height: 40px;
+    left: 0px;
+    line-height: 40px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}

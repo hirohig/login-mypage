@@ -1,0 +1,60 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+    height: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+header img {
+    height: 50px;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+
+header .login {
+    float: right;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+main {
+    clear: left;
+    width: 100%;
+}
+
+main .main-container {
+    background-color: white;
+    border: lightgray solid 2px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px lightgray;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 160px;
+    width: 400px;
+}
+
+main .message {
+    text-align: center;
+}
+
+footer {
+    background-color: white;
+    border-top: lightgray solid 2px;
+    bottom: 0px;
+    color: gray;
+    font-size: 13px;
+    height: 40px;
+    left: 0px;
+    line-height: 40px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}

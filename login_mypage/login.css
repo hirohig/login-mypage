@@ -1,0 +1,110 @@
+body {
+    background-color: #f8f8f8;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    box-shadow: 2px 2px 4px lightgray;
+    height: 80px;
+    text-align: center;
+    width: 100%;
+}
+
+header img {
+    height: 50px;
+    margin-top: 15px;
+    padding-left: 40px;
+}
+
+header .login {
+    float: right;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+main {
+    clear: left;
+    width: 100%;
+}
+
+main form {
+    background-color: white;
+    border: lightgray solid 2px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px lightgray;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 400px;
+}
+
+main .form_contents {
+    margin: 50px 25px;
+}
+
+main label {
+    display: inline-block;
+    font-size: 13px;
+}
+
+main .error-message {
+    background-color: lightpink;
+    color: red;
+    margin: 0px 13px;
+    padding: 3px 0px;
+    font-size: 13px;
+    text-align: center;
+}
+
+main .mail {
+    margin: 25px;
+    text-align: left;
+}
+
+main .password {
+    margin: 25px;
+    text-align: left;
+}
+
+main .login_check {
+    margin: 25px;
+    text-align: left;
+}
+
+main .formbox {
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    color: #999;
+    padding: 5px;
+}
+
+main .button {
+    text-align: center;
+}
+
+main .submit_button {
+    background-color: #31A263;
+    border: 1px solid lightgray;
+    border-bottom: solid 2px gray;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 6px 60px 4px 60px;
+    width: 200px;
+}
+
+footer {
+    background-color: white;
+    border-top: lightgray solid 2px;
+    bottom: 0px;
+    color: gray;
+    font-size: 13px;
+    height: 40px;
+    left: 0px;
+    line-height: 40px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
